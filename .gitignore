@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle
+kaggle.json
+.kaggle/
+
+# CAMELYON16 / whole-slide images
+data/
+datasets/
+raw/
+patches/
+
+*.tif
+*.tiff
+*.svs
+*.ndpi
+*.mrxs
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated arrays
+*.npy
+*.npz
+
+# Generated outputs
+outputs/
+artifacts/
+checkpoints/
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
